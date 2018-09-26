@@ -12,6 +12,19 @@
 		CD1A03BE2152C29D003DB4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03BC2152C29D003DB4FB /* Main.storyboard */; };
 		CD1A03C02152C29E003DB4FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03BF2152C29E003DB4FB /* Assets.xcassets */; };
 		CD1A03C32152C29E003DB4FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03C12152C29E003DB4FB /* LaunchScreen.storyboard */; };
+		CD1A03CB2152C2EF003DB4FB /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03CA2152C2EF003DB4FB /* image.jpg */; };
+		CD1A03D32152C361003DB4FB /* BottomSheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03D12152C361003DB4FB /* BottomSheetManager.swift */; };
+		CD1A03D42152C361003DB4FB /* BottomSheetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03D22152C361003DB4FB /* BottomSheetTableViewController.swift */; };
+		CD1A03D62152C49B003DB4FB /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03D52152C49B003DB4FB /* PassthroughWindow.swift */; };
+		CD1A03D82152C8FB003DB4FB /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03D72152C8FB003DB4FB /* DemoTableViewController.swift */; };
+		CD1A03DA2152CE24003DB4FB /* BottomSheetHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03D92152CE24003DB4FB /* BottomSheetHeaderView.swift */; };
+		CD1A03DC2152DE0B003DB4FB /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03DB2152DE0B003DB4FB /* BottomSheetViewController.swift */; };
+		CD1A03DE2152E92B003DB4FB /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03DD2152E92B003DB4FB /* DemoViewController.swift */; };
+		CD1A03E02152EBD4003DB4FB /* DemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03DF2152EBD4003DB4FB /* DemoView.xib */; };
+		CD1A03E221554F8E003DB4FB /* BottomSheetScrimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1A03E121554F8E003DB4FB /* BottomSheetScrimView.swift */; };
+		CD1A03E62155A682003DB4FB /* CustomHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03E52155A682003DB4FB /* CustomHeader.xib */; };
+		CD1A03E82155A6DB003DB4FB /* dots.svg in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03E72155A6DB003DB4FB /* dots.svg */; };
+		CD1A03EA2155A74A003DB4FB /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1A03E92155A74A003DB4FB /* download.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		CD1A03BF2152C29E003DB4FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD1A03C22152C29E003DB4FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD1A03C42152C29F003DB4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1A03CA2152C2EF003DB4FB /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		CD1A03D12152C361003DB4FB /* BottomSheetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetManager.swift; sourceTree = "<group>"; };
+		CD1A03D22152C361003DB4FB /* BottomSheetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetTableViewController.swift; sourceTree = "<group>"; };
+		CD1A03D52152C49B003DB4FB /* PassthroughWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughWindow.swift; sourceTree = "<group>"; };
+		CD1A03D72152C8FB003DB4FB /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		CD1A03D92152CE24003DB4FB /* BottomSheetHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHeaderView.swift; sourceTree = "<group>"; };
+		CD1A03DB2152DE0B003DB4FB /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		CD1A03DD2152E92B003DB4FB /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		CD1A03DF2152EBD4003DB4FB /* DemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoView.xib; sourceTree = "<group>"; };
+		CD1A03E121554F8E003DB4FB /* BottomSheetScrimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetScrimView.swift; sourceTree = "<group>"; };
+		CD1A03E52155A682003DB4FB /* CustomHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeader.xib; sourceTree = "<group>"; };
+		CD1A03E72155A6DB003DB4FB /* dots.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = dots.svg; path = ../../../Desktop/dots.svg; sourceTree = "<group>"; };
+		CD1A03E92155A74A003DB4FB /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = ../../../Desktop/download.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,35 @@
 		CD1A03B72152C29D003DB4FB /* BottomSheetPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CD1A03CA2152C2EF003DB4FB /* image.jpg */,
+				CD1A03E72155A6DB003DB4FB /* dots.svg */,
+				CD1A03E92155A74A003DB4FB /* download.png */,
 				CD1A03B82152C29D003DB4FB /* AppDelegate.swift */,
 				CD1A03BA2152C29D003DB4FB /* ViewController.swift */,
+				CD1A03D72152C8FB003DB4FB /* DemoTableViewController.swift */,
+				CD1A03DD2152E92B003DB4FB /* DemoViewController.swift */,
+				CD1A03D52152C49B003DB4FB /* PassthroughWindow.swift */,
+				CD1A03D02152C361003DB4FB /* BottomSheet */,
 				CD1A03BC2152C29D003DB4FB /* Main.storyboard */,
+				CD1A03DF2152EBD4003DB4FB /* DemoView.xib */,
+				CD1A03E52155A682003DB4FB /* CustomHeader.xib */,
 				CD1A03BF2152C29E003DB4FB /* Assets.xcassets */,
 				CD1A03C12152C29E003DB4FB /* LaunchScreen.storyboard */,
 				CD1A03C42152C29F003DB4FB /* Info.plist */,
 			);
 			path = BottomSheetPractice;
+			sourceTree = "<group>";
+		};
+		CD1A03D02152C361003DB4FB /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A03D12152C361003DB4FB /* BottomSheetManager.swift */,
+				CD1A03D22152C361003DB4FB /* BottomSheetTableViewController.swift */,
+				CD1A03E121554F8E003DB4FB /* BottomSheetScrimView.swift */,
+				CD1A03DB2152DE0B003DB4FB /* BottomSheetViewController.swift */,
+				CD1A03D92152CE24003DB4FB /* BottomSheetHeaderView.swift */,
+			);
+			path = BottomSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1A03C32152C29E003DB4FB /* LaunchScreen.storyboard in Resources */,
+				CD1A03E02152EBD4003DB4FB /* DemoView.xib in Resources */,
+				CD1A03E82155A6DB003DB4FB /* dots.svg in Resources */,
 				CD1A03C02152C29E003DB4FB /* Assets.xcassets in Resources */,
 				CD1A03BE2152C29D003DB4FB /* Main.storyboard in Resources */,
+				CD1A03CB2152C2EF003DB4FB /* image.jpg in Resources */,
+				CD1A03E62155A682003DB4FB /* CustomHeader.xib in Resources */,
+				CD1A03EA2155A74A003DB4FB /* download.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1A03DA2152CE24003DB4FB /* BottomSheetHeaderView.swift in Sources */,
+				CD1A03D42152C361003DB4FB /* BottomSheetTableViewController.swift in Sources */,
+				CD1A03D62152C49B003DB4FB /* PassthroughWindow.swift in Sources */,
+				CD1A03DE2152E92B003DB4FB /* DemoViewController.swift in Sources */,
+				CD1A03E221554F8E003DB4FB /* BottomSheetScrimView.swift in Sources */,
+				CD1A03D82152C8FB003DB4FB /* DemoTableViewController.swift in Sources */,
 				CD1A03BB2152C29D003DB4FB /* ViewController.swift in Sources */,
 				CD1A03B92152C29D003DB4FB /* AppDelegate.swift in Sources */,
+				CD1A03D32152C361003DB4FB /* BottomSheetManager.swift in Sources */,
+				CD1A03DC2152DE0B003DB4FB /* BottomSheetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
